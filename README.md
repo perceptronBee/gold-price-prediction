@@ -1,49 +1,35 @@
-# Gold Price Prediction with LazyPredict
+# 🩺 Diabetes Classifier
 
-## 📌 Project Goal
-The main objective of this project is to improve **Exploratory Data Analysis (EDA)** skills and to learn how to use the **LazyPredict** library.  
-The project benchmarks multiple regression models on a financial dataset and analyzes their performance in predicting gold prices.  
+## 📖 Overview
 
-## 📊 Dataset
-- Source: [Kaggle - Financial Data](https://www.kaggle.com/datasets/franciscogcc/financial-data)  
-- The dataset contains financial indicators and gold price values.  
-- The target variable is the gold price, predicted using various financial features.  
+This project explores different machine learning models to predict diabetes outcomes. The main goal is to understand model performance and choose the best approach for this dataset.
 
-## ⚙️ Methods
-- Used **LazyPredict** to quickly train and evaluate multiple regression models.  
-- Due to the dataset’s linear-like structure, **Linear Regression** achieved the best performance.  
-- Regularization methods (Ridge, Lasso) and more complex models tended to distort predictions instead of improving them.  
+## 🗂 Project Structure
 
-## 📝 Key Learnings
-- **EDA is crucial**: Understanding the dataset before model selection is essential.  
-- **LazyPredict** is a powerful tool for fast benchmarking of ML models.  
-- Sometimes **simpler models** (e.g., Linear Regression) can outperform more complex ones, especially on linear datasets.  
+- `diabetes-model.ipynb`: A Jupyter Notebook implementing multiple machine learning models to classify diabetes outcomes.
 
-## 🚀 How to Run
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/perceptronBee/gold-price-prediction.git
-   
-2. Run the notebook:
-   ```bash
-   jupyter notebook gold-price-prediction.ipynb
+## 🛠 Technologies Used
 
+- 🐍 Python  
+- 📓 Jupyter Notebook  
+- 🐼 Pandas  
+- ⚙️ Scikit-learn  
+- 📊 Matplotlib  
+- 🎨 Seaborn  
 
+## 🚀 Project Steps
 
-## 📈 Results
+1. 🔹 Loading and preprocessing the dataset  
+2. 🔹 Splitting data into training and testing sets  
+3. 🔹 Training multiple machine learning models  
+4. 🔹 Evaluating model performance using metrics  
+5. 🔹 Comparing results to determine the most suitable model  
 
-- **Best model:** Linear Regression
-- Regularization and complex models did not improve performance.
-- The results highlight the dataset’s strongly linear structure.
+## 💡 Key Insights
 
-## 📚 Tools & Libraries
-
-- Python 3
-- Pandas
-- Numpy
-- Matplotlib
-- scikit-learn
-- LazyPredict
+- Provides hands-on experience with classification models  
+- Highlights the importance of data preprocessing and model evaluation  
+- Demonstrates model comparison and selection  
 
 ---
 
